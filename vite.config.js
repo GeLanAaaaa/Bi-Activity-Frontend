@@ -9,5 +9,8 @@ export default defineConfig({
     alias: { //配置路径别名
       '@': path.resolve(__dirname, 'src')
     }
-  }
+  },
+server: { // 添加 server 配置项
+  port: 8080 // 设置端口号为 8080
+}
 })
